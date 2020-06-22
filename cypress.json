@@ -1,0 +1,13 @@
+{
+  "defaultCommandTimeout": 8000,
+  "env": {
+    "url": "http://localhost:8000/auth/enterprise/log-in"
+  },
+  "projectId": "su9w1z",
+  "testFiles": [
+    "Login/signup.spec.js",
+    "Login/signIn.spec.js",
+    "Login/setting.spec.js",
+    "Login/logout.spec.js"
+  ]
+}

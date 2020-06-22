@@ -1,0 +1,19 @@
+{
+  "name": "shivomtestautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "recordDashBoardTest": "npm run test -- --record --key b7a23701-c2a8-4f74-a196-5ab3621844a1"
+  },
+  "author": "Pooja Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.5.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-plugin-tab": "^1.0.5"
+  }
+}
