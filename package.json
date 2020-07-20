@@ -9,7 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^4.9.0",
-    "npm": "^6.14.5"
+    "npm": "^6.14.6"
   },
   "devDependencies": {},
   "description": ""
